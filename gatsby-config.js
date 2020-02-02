@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Monzo Progression',
+    title: 'Applover Personal Growth Framework',
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -28,13 +28,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'progression-framework',
-        short_name: 'progression-framework',
+        name: 'applover-pgf',
+        short_name: 'applover-pgf',
         start_url: '/',
         background_color: '#14233c',
         theme_color: '#14233c',
         display: 'minimal-ui',
-        icon: 'src/images/favicon.png',
+        icon: 'src/images/favicon.svg',
       },
     }
   ],
