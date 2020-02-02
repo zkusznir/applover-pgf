@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Personal Growth Framework at Applover
 </h1>
 
 🎉 Welcome to the Progression at Monzo repository
