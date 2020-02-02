@@ -40,7 +40,7 @@ type CriteriaState = {
 }
 
 const masonryBreakpoints = {
-  default: 3,
+  default: 2,
   [BREAKPOINT_DESKTOP]: 2,
   [BREAKPOINT_TABLET]: 1,
 }
