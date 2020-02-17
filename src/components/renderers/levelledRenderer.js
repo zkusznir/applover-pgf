@@ -142,7 +142,7 @@ export default class LevelledRenderer extends React.Component<Props, State> {
         <CenteredElement>
           <Card>
             <Subtitle>
-              To view a framework, please select a level above.
+              To view a path, please select a milestone above.
             </Subtitle>
           </Card>
         </CenteredElement>
