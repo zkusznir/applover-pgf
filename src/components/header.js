@@ -71,7 +71,7 @@ const Header = ({ onClickHandler, pageData, activeLevel }: Props) => {
         <Title small>{pageData.title}</Title>
       </FrameworkTitleGroup>
       <LevelsContainer>
-        <LevelsSubtitle>Levels</LevelsSubtitle>
+        <LevelsSubtitle>Milestones</LevelsSubtitle>
         <LevelsTextWrapper>
           {renderLevels({ onClickHandler, pageData, activeLevel })}
         </LevelsTextWrapper>

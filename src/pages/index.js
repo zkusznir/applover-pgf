@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faGitlab } from '@fortawesome/free-brands-svg-icons'
 import Layout from '../components/layout'
 import {
   Subtitle,
@@ -25,48 +25,64 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Monzo 🎉</Title>
+            <Title>Personal Growth Framework 🎓</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
-              This is where we keep the progression frameworks we use at Monzo.
+              This is where we keep the Personal Growth Framework (PGF) for
+              Applover team members.
             </DescriptionText>
             <DescriptionText>
-              Progression frameworks are tools that help us evaluate and pay our
-              staff consistently, and help people understand how to progress in
-              their work.
+              PGF is a tool that guides you through your professional
+              development and lets you understand how to progress in your work.
+              It helps you find your own way at Applover so that you can grow
+              both as a professional and a person. PGF is not a checklist - it is
+              your <b>guide</b> in your career development.
             </DescriptionText>
             <DescriptionText>
-              We&apos;ve put them here for everyone at Monzo (and anyone in the
-              world!) to use.
+              Apart from describing you professional development paths, PGF
+              emphasizes the values that we cherish and follow at Applover. We
+              want all the team members to have easy and constant access to
+              these values.
+            </DescriptionText>
+            <Subtitle>How does it work?</Subtitle>
+            <DescriptionText>
+              Take a look at the sidebar/menu - you will find there 9 paths
+              of values that we embrace at Applover and possible paths in your
+              career development. Each path contains exemplary behaviors
+              within each milestone for it. While most of these paths are
+              common and relevant to all Applover&apos;s team members, there are
+              few that are optional to be followed (paths like <b>Mentorship</b>{' '}
+              or <b>Tech leading</b>).
             </DescriptionText>
             <DescriptionText>
-              We&apos;ll be adding more frameworks as we build them, and
-              updating existing ones as we grow, so expect things to change
-              around here!
+              Milestone represents a single goal to be achieved within given
+              period of time and illustrates how exemplary behaviors/skills for
+              particular path of values/career development path changes over
+              time along with your progression.
             </DescriptionText>
             <DescriptionText>
-              This site, along with all our progression frameworks, are open
-              source. That means you can contribute to the development of this
-              site or our progression frameworks, and use both as inspiration
-              for your own projects!
+              Below you will find a group of <b>Core</b> paths which are
+              directly related to professions we employ at Applover. With PGF
+              we want to support both horizontal and vertical development so
+              that you can focus either on becoming a rockstar in your domain or
+              growing into a T-shaped person with a range of various skills.
+            </DescriptionText>
+            <hr/>
+            <DescriptionText>
+              PGF is a living organism meaning it will evolve over time. Feel
+              free to contribute by submitting a merge request in the{' '}
+              <a href="https://git.applover.pl/Applover/pgf">
+                <FontAwesomeIcon icon={faGitlab} />{' '}repository
+              </a>
+              .
             </DescriptionText>
             <DescriptionText>
-              To get involved, go to{' '}
+              This site has been built on top of {' '}
               <a href="https://github.com/monzo/progression-framework">
-                <FontAwesomeIcon icon={faGithub} />{' '}
-                @monzo/progression-framework.
+                <FontAwesomeIcon icon={faGithub} /> Monzo&apos;s{' '}
               </a>
-            </DescriptionText>
-            <DescriptionText>
-              You can find out more about progression at Monzo and what it means
-              for us in this{' '}
-              <a href="https://monzo.com/blog/2019/01/07/progression">
-                blog post.
-              </a>
-            </DescriptionText>
-            <DescriptionText>
-              Take a look around and let us know what you think! 🚀
+              progression framework.
             </DescriptionText>
           </Description>
         </DescriptionView>
